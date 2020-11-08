@@ -12,6 +12,8 @@ html {
     font-family: 'Lato', sans-serif;
     text-rendering: optimizeLegibility;
     font-weight: 300;
+    scroll-behavior: smooth;
+
 }
 
 .row {
@@ -160,7 +162,7 @@ input[type=submit] {
     margin: 2rem auto;
 }
 
-.out-sec > p {
+.out-sec>p {
     margin: 3rem auto;
     text-align: center;
     font-size: 2rem;
@@ -494,68 +496,73 @@ textarea {
 }
 
 
-.cont-navi{
+.cont-navi {
     display: flex;
     justify-content: space-between;
     margin: 2rem 0;
 }
 
-footer{
+footer {
     background-color: #333;
     color: #999;
     font-size: 1.6rem;
     padding: 3rem 0 0.2rem;
 }
 
-.foot-nav{
+.foot-nav {
     flex: 1;
 }
 
-.foot-nav ul, .social-nav ul{
+.foot-nav ul,
+.social-nav ul {
     display: flex;
-    list-style-type: none;     
+    list-style-type: none;
     font-weight: 100;
 }
-.foot-nav ul a, .social-nav ul a{
+
+.foot-nav ul a,
+.social-nav ul a {
     padding: 0 1.6rem;
     text-decoration: none;
     font-weight: 300;
     color: #999;
 }
-.foot-nav ul a:hover{
+
+.foot-nav ul a:hover {
     color: #fff;
 }
 
-.social-nav{
+.social-nav {
     flex: 1;
 }
 
-.social-nav ul{
+.social-nav ul {
     justify-content: flex-end;
     font-size: 2.2rem;
-} 
-.foot-nav ul{
+}
+
+.foot-nav ul {
     justify-content: flex-start;
 }
 
-footer p{
+footer p {
     text-align: center;
     padding: .5rem 0;
 }
 
-.ion-social-facebook:hover{
+.ion-social-facebook:hover {
     color: #3b5999;
 }
 
-.ion-social-twitter:hover{
+.ion-social-twitter:hover {
     color: #55acee;
 }
 
-.ion-social-googleplus:hover{
+.ion-social-googleplus:hover {
     color: #dd4b39;
 }
 
-.ion-social-instagram:hover{
+.ion-social-instagram:hover {
     color: #e4405f;
 
 }
