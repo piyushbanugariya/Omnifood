@@ -1,0 +1,222 @@
+@media (max-width: 1140px) {
+    html {
+        font-size: 60.5%;
+    }
+
+    @media (max-width: 900px) {
+        html {
+            font-size: 54.25%;
+        }
+
+        .main-cont h1 {
+            font-size: 3.8rem;
+            line-height: 1.6;
+        }
+
+        .foot-nav ul a,
+        .social-nav ul a {
+            padding: 0 1rem;
+        }
+    }
+
+    @media (max-width: 758px) {
+        html {
+            font-size: 50%;
+        }
+
+        .main-cont h1 {
+            font-size: 3.2rem;
+            line-height: 1.6;
+        }
+
+        .out-sec h2,
+        .section-steps h2,
+        .section-city h2,
+        .section-testimonial h2,
+        .section-plan h2,
+        .section-form h2 {
+            width: 90%;
+            font-size: 2.8rem;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2rem 1rem;
+        }
+
+        .container p {
+            text-align: center;
+        }
+
+        .container h3,
+        .city h3 {
+            font-size: 2rem;
+        }
+
+        .out-sec>p {
+            font-size: 1.8rem;
+            line-height: 1.4;
+            width: 80%;
+        }
+
+        .main-nav {
+            display: none;
+        }
+
+        .main-cont h1 {
+            font-size: 3rem;
+        }
+
+        .section-meals {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .container-step {
+            grid-template-columns: 1fr;
+        }
+
+        .step-img {
+            justify-self: center;
+        }
+
+        .cont-step {
+            display: block;
+            width: 80%;
+            margin: 5rem auto;
+        }
+
+        .app {
+            width: 90%;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .cont-city {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5rem 2rem;
+        }
+
+        .cont-testi {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .testi:nth-child(3) {
+            display: none;
+        }
+
+        .testi cite {
+            margin-top: .5rem;
+        }
+
+        .plans {
+            display: block;
+            text-align: center;
+        }
+
+        .plan {
+            width: 60%;
+            margin: 3rem auto;
+        }
+
+        .contact-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 60%;
+        }
+
+        #null{
+            display: none;
+        }
+
+        .two {
+            margin-bottom: 2rem;
+        }
+
+        .cont-navi {
+            display: block;
+        }
+
+        .social-nav ul{
+            justify-content: center;
+            font-size: 2rem;
+        } 
+        .foot-nav ul{
+            justify-content: center;
+        }
+
+        .foot-nav ul, .social-nav ul{
+            width: 100%;
+            text-align: center;
+        }
+
+        .foot-nav ul a,
+        .social-nav ul a {
+            padding: 0 1rem;
+        }
+
+        .foot-nav {
+            margin-bottom: 3rem;
+        }
+
+        footer p{
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+    }
+
+    @media (max-width: 500px) {
+
+        .out-sec h2,
+        .section-steps h2,
+        .section-city h2,
+        .section-testimonial h2,
+        .section-plan h2,
+        .section-form h2 {
+            width: 90%;
+            font-size: 2rem;
+        }
+
+        .main-cont .btn-2{
+            display: none;
+        }
+
+        .main-cont h1 {
+            font-size: 2rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            grid-template-columns: 1fr;
+            grid-gap: 2rem 0;
+        }
+
+        .section-meals {
+            grid-template-columns: 1fr;
+        }
+
+        .cont-city {
+            grid-template-columns: 1fr;
+            grid-gap: 5rem o;
+        }
+
+        .cont-testi {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 2rem 0;
+        }
+
+        .testi:nth-child(3) {
+            display: block;
+        }
+
+        .plan {
+            width: 90%;
+        }
+
+        .contact-form {
+            width: 90%;
+        }
+
+    }
